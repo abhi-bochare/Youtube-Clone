@@ -1,12 +1,109 @@
-# React + Vite
+# 🎬 YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **YouTube Clone** built with **React**, **YouTube Data API v3**, **Firebase Authentication**, and **Redux Toolkit**.  
+This project replicates core YouTube features such as browsing videos, searching, authentication, and viewing video details.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Click Here](https://your-live-link.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Authentication with Firebase**
+  - User Signup / Login
+  - Protected Routes (only logged-in users can access certain pages)
+
+- 🎥 **Video Features**
+  - Browse and watch videos
+  - Video cards with thumbnails, titles, and channel info
+  - Video details page with playback
+
+- 🔍 **Search**
+  - Search for videos using **YouTube Data API v3**
+
+- 📌 **UI Components**
+  - Navbar with search
+  - Sidebar with categories
+  - Subscribe button
+  - Responsive layout
+
+- ⚡ **State Management**
+  - Implemented using **Redux Toolkit**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JSX, CSS
+- **State Management:** Redux Toolkit
+- **API:** YouTube Data API v3
+- **Authentication:** Firebase Auth
+- **Build Tool:** Vite 
+
+---
+
+## 📂 Project Structure
+```
+src
+┣ api
+┃ ┗ youtube.js
+┣ assets
+┣ components
+┃ ┣ Icons.jsx
+┃ ┣ Logo.jsx
+┃ ┣ Navbar.jsx
+┃ ┣ ProtectedRoute.jsx
+┃ ┣ Sidebar.jsx
+┃ ┣ SubscribeButton.jsx
+┃ ┗ VideoCard.jsx
+┣ pages
+┃ ┣ Home.jsx
+┃ ┣ Login.jsx
+┃ ┣ Signup.jsx
+┃ ┗ VideoPage.jsx
+┣ redux
+┃ ┣ authSlice.jsx
+┃ ┣ currentVideoSlice.jsx
+┃ ┣ store.jsx
+┃ ┗ videosSlice.jsx
+┣ App.css
+┣ App.jsx
+┣ firebase.js
+┣ index.css
+┗ main.jsx
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/youtube-clone.git
+   cd youtube-clone
+   ```
+   
+2. Install dependencies:
+
+  ```bash
+  npm install
+  ```
+
+3. Create a .env file in the root and add your API keys:
+
+  ```.env
+  REACT_APP_YOUTUBE_API_KEY=your_youtube_api_key
+  ```
+4. Start the development server:
+
+  ```bash
+  npm run dev
+  ```
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+
+## 👨‍💻 Built by Abhishek Bochare
