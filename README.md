@@ -92,7 +92,7 @@ src
 3. Create a .env file in the root and add your API keys:
 
   ```.env
-  REACT_APP_YOUTUBE_API_KEY=your_youtube_api_key
+  VITE_YT_API_KEY = your_youtube_api_key
   ```
 4. Start the development server:
 
