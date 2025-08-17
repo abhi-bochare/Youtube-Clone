@@ -3,7 +3,7 @@
 A fully functional **YouTube Clone** built with **React**, **YouTube Data API v3**, **Firebase Authentication**, and **Redux Toolkit**.  
 This project replicates core YouTube features such as browsing videos, searching, authentication, and viewing video details.
 
-🔗 **Live Demo:** [Click Here](https://your-live-link.com)
+🔗 **Live Demo:** [Click Here](https://utube-my.netlify.app/)
 
 ---
 
